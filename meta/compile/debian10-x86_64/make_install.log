@@ -1,0 +1,105 @@
+❯ make install 2>../make_install.log 1>&2 
+make  install-recursive
+make[1]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69'
+Making install in bin
+make[2]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/bin'
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/bin'
+test -z "/opt/autoconf/bin" || /usr/bin/mkdir -p "/opt/autoconf/bin"
+ /usr/bin/install -c autom4te autoconf autoheader autoreconf ifnames autoscan autoupdate '/opt/autoconf/bin'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/bin'
+make[2]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/bin'
+Making install in .
+make[2]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69'
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/opt/autoconf/share/autoconf" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf"
+ /usr/bin/install -c -m 644 ./INSTALL '/opt/autoconf/share/autoconf'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69'
+make[2]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69'
+Making install in lib
+make[2]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib'
+Making install in Autom4te
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/Autom4te'
+make[4]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/Autom4te'
+make[4]: Nothing to be done for 'install-exec-am'.
+test -z "/opt/autoconf/share/autoconf/Autom4te" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf/Autom4te"
+ /usr/bin/install -c -m 644 C4che.pm ChannelDefs.pm Channels.pm Configure_ac.pm FileUtils.pm General.pm Getopt.pm Request.pm XFile.pm '/opt/autoconf/share/autoconf/Autom4te'
+make[4]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/Autom4te'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/Autom4te'
+Making install in m4sugar
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/m4sugar'
+make[4]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/m4sugar'
+make[4]: Nothing to be done for 'install-exec-am'.
+test -z "/opt/autoconf/share/autoconf/m4sugar" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf/m4sugar"
+ /usr/bin/install -c -m 644 m4sugar.m4 foreach.m4 m4sh.m4 '/opt/autoconf/share/autoconf/m4sugar'
+test -z "/opt/autoconf/share/autoconf/m4sugar" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf/m4sugar"
+ /usr/bin/install -c -m 644 version.m4 m4sugar.m4f m4sh.m4f '/opt/autoconf/share/autoconf/m4sugar'
+make[4]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/m4sugar'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/m4sugar'
+Making install in autoconf
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autoconf'
+make[4]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autoconf'
+make[4]: Nothing to be done for 'install-exec-am'.
+test -z "/opt/autoconf/share/autoconf/autoconf" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf/autoconf"
+ /usr/bin/install -c -m 644 autoconf.m4 general.m4 status.m4 oldnames.m4 specific.m4 autoheader.m4 autoupdate.m4 autotest.m4 autoscan.m4 lang.m4 c.m4 erlang.m4 fortran.m4 functions.m4 go.m4 headers.m4 types.m4 libs.m4 programs.m4 '/opt/autoconf/share/autoconf/autoconf'
+test -z "/opt/autoconf/share/autoconf/autoconf" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf/autoconf"
+ /usr/bin/install -c -m 644 autoconf.m4f '/opt/autoconf/share/autoconf/autoconf'
+make[4]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autoconf'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autoconf'
+Making install in autotest
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autotest'
+make[4]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autotest'
+make[4]: Nothing to be done for 'install-exec-am'.
+test -z "/opt/autoconf/share/autoconf/autotest" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf/autotest"
+ /usr/bin/install -c -m 644 autotest.m4 general.m4 specific.m4 '/opt/autoconf/share/autoconf/autotest'
+test -z "/opt/autoconf/share/autoconf/autotest" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf/autotest"
+ /usr/bin/install -c -m 644 autotest.m4f '/opt/autoconf/share/autoconf/autotest'
+make[4]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autotest'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autotest'
+Making install in autoscan
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autoscan'
+make[4]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autoscan'
+make[4]: Nothing to be done for 'install-exec-am'.
+test -z "/opt/autoconf/share/autoconf/autoscan" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf/autoscan"
+ /usr/bin/install -c -m 644 autoscan.list '/opt/autoconf/share/autoconf/autoscan'
+make[4]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autoscan'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/autoscan'
+Making install in emacs
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/emacs'
+make[4]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib/emacs'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/emacs'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib/emacs'
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib'
+make[4]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/lib'
+make[4]: Nothing to be done for 'install-exec-am'.
+test -z "/opt/autoconf/share/autoconf" || /usr/bin/mkdir -p "/opt/autoconf/share/autoconf"
+ /usr/bin/install -c -m 644 autom4te.cfg '/opt/autoconf/share/autoconf'
+make[4]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib'
+make[2]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/lib'
+Making install in doc
+make[2]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/doc'
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/opt/autoconf/share/info" || /usr/bin/mkdir -p "/opt/autoconf/share/info"
+ /usr/bin/install -c -m 644 ./autoconf.info ./standards.info '/opt/autoconf/share/info'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/doc'
+make[2]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/doc'
+Making install in tests
+make[2]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/tests'
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/tests'
+make[2]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/tests'
+Making install in man
+make[2]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/man'
+make[3]: Entering directory '/opt/autoconf/archive/source/autoconf-2.69/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/opt/autoconf/share/man/man1" || /usr/bin/mkdir -p "/opt/autoconf/share/man/man1"
+ /usr/bin/install -c -m 644 ./autoconf.1 ./autoheader.1 ./autom4te.1 ./autoreconf.1 ./autoscan.1 ./autoupdate.1 ./ifnames.1 ./config.guess.1 ./config.sub.1 '/opt/autoconf/share/man/man1'
+make[3]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/man'
+make[2]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69/man'
+make[1]: Leaving directory '/opt/autoconf/archive/source/autoconf-2.69'
